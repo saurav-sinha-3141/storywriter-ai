@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/storywriter-ai/static/css/main.6059e6cd.css",
+    "main.js": "/storywriter-ai/static/js/main.971d8be0.js",
+    "index.html": "/storywriter-ai/index.html",
+    "main.6059e6cd.css.map": "/storywriter-ai/static/css/main.6059e6cd.css.map",
+    "main.971d8be0.js.map": "/storywriter-ai/static/js/main.971d8be0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6059e6cd.css",
+    "static/js/main.971d8be0.js"
+  ]
+}
