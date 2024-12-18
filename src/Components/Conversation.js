@@ -34,6 +34,12 @@ const Conversation = ({ chatHistory }) => {
       "<strong class='font-bold'>$1</strong>"
     );
 
+    // Step 2: Convert bold text (**bold**)
+    markdown = markdown.replace(
+      /\*(.*?)\*/g,
+      "<em class='italic'>$1</em>"
+    );
+
     // Step 3: Convert links ([text](url))
     markdown = markdown.replace(
       /\[(.*?)\]\((.*?)\)/g,
